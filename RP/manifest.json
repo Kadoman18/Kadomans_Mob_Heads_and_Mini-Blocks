@@ -1,0 +1,25 @@
+{
+	"format_version": 2,
+	"header": {
+		"min_engine_version": [1, 21, 20],
+		"name": "Kadoman's Mob Heads & Mini-Blocks (RP)",
+		"description": "Adds Mob Heads which can drop from killed mobs based on chance, and Mini-Blocks which can be bought from the wandering trader.",
+		"uuid": "f52a37b0-4dc7-4ac7-9ba5-6d2775a01b69",
+		"version": [1, 1, 5]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"description": "Fixed Iron Block texture to look nicer.",
+			"uuid": "336f4727-560f-4f71-a7db-d56ecac06e02",
+			"version": [1, 1, 5]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "4977f09b-11f7-4cbb-8b86-5744d9fdc39f",
+			"version": [1, 1, 10]
+		}
+	],
+	"metadata": { "authors": ["kadoman"] }
+}

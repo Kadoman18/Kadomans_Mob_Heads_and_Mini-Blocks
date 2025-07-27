@@ -1,0 +1,33 @@
+{
+	"format_version": 2,
+	"header": {
+		"min_engine_version": [1, 21, 20],
+		"name": "Kadoman's Mob Heads & Mini-Blocks (BP)",
+		"description": "Adds Mob Heads which can drop from killed mobs based on chance, and Mini-Blocks which can be bought from the wandering trader.",
+		"uuid": "4977f09b-11f7-4cbb-8b86-5744d9fdc39f",
+		"version": [1, 1, 10]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"description": "Restructured the witch loot tables to match 1.21 tweaks to drops.",
+			"uuid": "8428cdd0-b8de-4f84-8dcf-3bb6438b9285",
+			"version": [1, 1, 10]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "main.js",
+			"uuid": "78b02f76-9ad0-4bfb-88c5-f837172319e7",
+			"version": [1, 0, 2]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "f52a37b0-4dc7-4ac7-9ba5-6d2775a01b69",
+			"version": [1, 1, 5]
+		},
+		{ "module_name": "@minecraft/server", "version": "1.13.0" }
+	],
+	"metadata": { "authors": ["kadoman"] }
+}

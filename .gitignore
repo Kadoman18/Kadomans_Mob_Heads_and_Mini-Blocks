@@ -1,0 +1,4 @@
+*.DS_Store
+/MHMB.mcaddon
+/manifest.json (BP)
+/manifest.json (RP)
